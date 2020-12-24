@@ -19,4 +19,3 @@ import { PlayersModule } from './players/players.module';
 export class AppModule { }
 
 
-// 'mongodb+srv://admin:qmuCmLM1EXaoupr1@cluster0.yqgoy.mongodb.net/smartranking?retryWrites=true&w=majority'
