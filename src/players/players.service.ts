@@ -41,7 +41,6 @@ export class PlayersService {
     return await this.playerModel.find().exec();
   }
 
-
   async consultPlayerById(_id: string): Promise<Player> {
 
     const foundedPlayer = await this.playerModel.findOne({ _id }).exec();
